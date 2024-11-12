@@ -1,0 +1,12 @@
+<body id="go">
+<h1>Background colour changer</h1>
+<button onclick="R1()">Click</button>
+<script>
+    function R1(){
+        let bg=document.getElementById("go");
+let colour=["red","blue","yellow","indigo","skyblue","purple","pink"];
+var colorindex=Math.round((Math.random()*10)/7)
+bg.style.backgroundColor=colours[colorindex];
+    }
+</script>
+</body>
